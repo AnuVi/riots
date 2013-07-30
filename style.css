@@ -1,0 +1,81 @@
+ body{
+   color:#200446;
+   font-size:16px;
+ 
+ }
+.wrap{
+   margin:40px auto;
+   color:#200446;
+   font-size:16px;
+
+}
+
+form, #map{
+   margin:0 auto 20px;
+  
+}
+h1{
+  
+  text-align:center;
+  font-size:30px; 
+
+}
+
+.w-d{
+   text-align:center;
+   font-size:22px;
+   color:#8D3AA1;
+   font-weight:bold;
+
+}
+
+form{
+   width:100%;
+   
+
+}
+
+button, input[type="submit"]{
+  width:42%;
+  margin:0 auto;
+  padding:5px;
+  
+}
+
+fieldset{
+   margin:0 auto;
+   width:30%;
+   text-align:center;
+   border:none;
+}
+
+.bt-v1{
+  background-color:#D2D7DE;
+
+}
+input[type="submit"]{
+   background:#D2E26B;
+}
+
+input:focus, button:hover, input[type="submit"]:hover{
+   border:1px solid #200446;
+
+}
+
+
+.legend{
+    width:80%;
+    text-align:center;
+    margin:0 auto;
+
+}
+
+span{
+  margin-left:5px;
+  margin-right:5px;
+}
+
+#ui-datepicker-div{
+     left:0;
+}
+
