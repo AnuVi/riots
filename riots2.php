@@ -1,10 +1,10 @@
 <?php
- /* Küsib db andmed vastavalt sissetulevatele muutstele ning xml-na tagastab need
+ /* Küsib db andmed vastavalt sissetulevatele muutustele ning  tagastab need xml-na
  */
  
 include "dbconnect.php"; 
    
-// et db  oleks lihstam küsida, siis kuupäav õiget pidi
+// et db  oleks lihstam küsida, siis kuupäev õiget pidi
 function dateFormat($date){
        
        $date_split = explode('.',$date);
@@ -21,7 +21,7 @@ function dateFormat($date){
       
        $to;
        $from;
-  // kui on tegemist kuupaeva vahtetuse või vahemikus vahetusega
+  // kui on tegemist kuupaeva või vahemiku vahetusega
       if ($to!=""){ 
             $to = dateFormat($to);
           //vahemiku vahetus
